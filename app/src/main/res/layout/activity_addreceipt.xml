@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:layout_gravity="center"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/usertv"
+        android:layout_width="346dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="150dp"
+        android:text="Username">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/useritems"
+        android:layout_width="346dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="150dp"
+        android:text="Username">
+
+    </TextView>
+
+    <android.widget.Button
+        android:id="@+id/send_receipt_button"
+        android:layout_width="176dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onSendReceiptButtonClicked"
+        android:text="Send Receipt"
+        android:textColor="#00516e" />
+
+</LinearLayout>
+
